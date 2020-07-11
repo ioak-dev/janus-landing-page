@@ -1,0 +1,31 @@
+.sectionthree {
+  .sectionthree--container {
+    display: grid;
+    justify-content: center;
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+    }
+    @media (max-width: 767px) {
+      grid-auto-flow: row;
+      row-gap: 60px;
+    }
+    width: 65vw;
+    margin: auto;
+    margin-top: 100px;
+    img {
+      height: 350px;
+    }
+  }
+}
+
+.sectiontile {
+  display: grid;
+  grid-auto-flow: row;
+  align-content: flex-start;
+  row-gap: 10px;
+
+  svg {
+    color: var(--color-primary);
+  }
+}

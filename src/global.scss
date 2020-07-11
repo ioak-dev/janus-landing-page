@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat|Lato|Open+Sans|Open+Sans+Condensed:300&display=swap");
+
+* {
+  --color-primary: #564f70;
+  --color-secondary: #ffdb6a;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  word-break: break-word;
+
+  .heading--1 {
+    font-size: 2.75em;
+    @media (max-width: 767px) {
+      font-size: 1.75em;
+    }
+  }
+
+  .heading--2 {
+    font-size: 1.75em;
+    @media (max-width: 767px) {
+      font-size: 1em;
+    }
+  }
+
+  .heading--3 {
+    font-size: 1.25em;
+  }
+
+  .mobile-only {
+    @media (min-width: 768px) {
+      display: none !important;
+    }
+  }
+  .desktop-only {
+    @media (max-width: 767px) {
+      display: none !important;
+    }
+  }
+}
