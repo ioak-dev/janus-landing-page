@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "faIcon": "fas fa-palette",
+      "title": "Modern UI",
+      "description": "Sleek and clean user interface allows you to focus on the task at hand. Allows you to choose between light and dark modes based on your personal preference."
+    },
+    {
+      "faIcon": "fas fa-hand-holding-usd",
+      "title": "Free",
+      "description": "This is an open community initiative and it's absolutely free for personal and commercial purposes. You can create as many number of projects and teams as you need without limit."
+    },
+    {
+      "faIcon": "fab fa-superpowers",
+      "title": "Advanced",
+      "description": "Support for Kanban and Scrum methodologies. You can use story points or time estimates. We are continously working towards improving the application and adding new features."
+    }
+  ]
+}

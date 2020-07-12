@@ -4,10 +4,10 @@ import imageBoardView from "../../assets/preview/boardview.png"
 import imageBoardViewMobile from "../../assets/preview/boardview_mobile.png"
 import imageTaskView from "../../assets/preview/taskview.png"
 
-export default function SectionTwo() {
+export default function AppPreview() {
   return (
-    <div className="sectiontwo">
-      <div className="sectiontwo--container">
+    <div className="app-preview">
+      <div className="app-preview--container">
         <img
           className="preview-mobile desktop-only"
           src={imageTaskView}

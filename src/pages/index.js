@@ -1,14 +1,21 @@
 import React from "react"
-import SectionOne from "../components/SectionOne"
-import SectionTwo from "../components/SectionTwo"
-import SectionThree from "../components/SectionThree"
+import DemoSection from "../components/DemoSection"
+import HeroSection from "../components/HeroSection"
+import KeySection from "../components/KeySection"
+import OnboardSection from "../components/OnboardSection"
+import "./style.scss"
+import ContactSection from "../components/ContactSection"
+import FooterSection from "../components/FooterSection"
 
 export default function Home() {
   return (
-    <div>
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
+    <div className="page-home">
+      <HeroSection />
+      <KeySection />
+      <DemoSection />
+      <OnboardSection />
+      <ContactSection />
+      <FooterSection />
     </div>
   )
 }

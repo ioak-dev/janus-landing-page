@@ -1,5 +1,6 @@
-.sectionthree {
-  .sectionthree--container {
+.key-section {
+  margin: 50px 0;
+  .key-section--container {
     display: grid;
     justify-content: center;
     @media (min-width: 768px) {
@@ -10,11 +11,13 @@
       grid-auto-flow: row;
       row-gap: 60px;
     }
-    width: 65vw;
-    margin: auto;
-    margin-top: 100px;
     img {
       height: 350px;
+    }
+
+    i {
+      font-size: 2em;
+      color: var(--color-primary);
     }
   }
 }

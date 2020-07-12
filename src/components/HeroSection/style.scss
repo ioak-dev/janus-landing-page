@@ -1,19 +1,48 @@
-.sectiontwo {
+.hero-section {
+  background-color: #564f70;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .hero-section--container {
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 30px;
+  }
+}
+
+.header {
+  //   display: flex;
+  //   justify-content: center;
+  padding: 50px 0;
+  img {
+    height: 40px;
+  }
+}
+
+.app-preview {
   background: url("../../assets/sectionone.svg") no-repeat center bottom;
   background-size: cover;
   //   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22661.1%22%20viewBox=%220%200%201440%20661.1%22%3E%3Cstyle%20type=%22text/css%22%3Ecircle,%20ellipse,%20line,%20path,%20polygon,%20polyline,%20rect,%20text%20%7B%20fill:%20rgb(92,%20106,%20196)%20!important;%20%7D%3C/style%3E%3Cpath%20fill=%22rgb(92,%20106,%20196)%22%20d=%22M1440%20488c-19.3%204.3-39.2%208.6-60%2013-174.2%2036.5-228.8%20288-467%2076.2-153.6-136.6-424-22.8-660.4-5.8-130.2%209.3-252.6-75-252.6-75V0h1440%22/%3E%3C/svg%3E");
   background-position: bottom center;
   display: grid;
   justify-content: center;
-  svg {
-    fill: green;
-  }
+  margin-bottom: 50px;
 
-  .sectiontwo--container {
+  .app-preview--container {
     display: grid;
     grid-auto-flow: column;
     column-gap: 20px;
     margin-top: 100px;
+    @media (min-width: 768px) {
+      margin-top: 140px;
+    }
     img {
       height: 350px;
     }

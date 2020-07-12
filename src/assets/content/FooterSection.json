@@ -1,0 +1,42 @@
+{
+  "companyProfile": {
+    "title": "IOAK Developer Community",
+    "description": "Developer community that is set to educate software developers through realtime project implementations. Specialized in web development and Artificial intelligence"
+  },
+  "contact": [
+    {
+      "faIcon": "fas fa-envelope",
+      "label": "info@ioak.org"
+    },
+    {
+      "faIcon": "fas fa-phone-alt",
+      "label": "+91-8095500622"
+    },
+    {
+      "faIcon": "fab fa-discord",
+      "label": "https://discord.gg/B76x6cq"
+    },
+    {
+      "faIcon": "fab fa-linkedin-in",
+      "label": "https://www.linkedin.com/company/ioak-dev"
+    }
+  ],
+  "links": [
+    {
+      "group": "Help and Support",
+      "list": [
+        { "href": "abcd", "label": "Frequently asked questions" },
+        { "href": "abcd", "label": "Use cases" },
+        { "href": "abcd", "label": "Ask question" },
+        { "href": "abcd", "label": "Source code" }
+      ]
+    },
+    {
+      "group": "Legal and Privacy",
+      "list": [
+        { "href": "asa", "label": "Terms and Conditions" },
+        { "href": "abcd", "label": "Privacy Policy" }
+      ]
+    }
+  ]
+}

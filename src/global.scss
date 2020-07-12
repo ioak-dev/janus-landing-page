@@ -1,8 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat|Lato|Open+Sans|Open+Sans+Condensed:300&display=swap");
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 * {
   --color-primary: #564f70;
   --color-secondary: #ffdb6a;
+  --metric-formelement-height: 46px;
+
+  --color-background-1: #e3e5e8;
+  --color-background-2: #ebedef;
+  --color-background-3: #f2f3f5;
+  --color-background-4: #ffffff;
+  --color-background-5: #ffffff;
+
+  --color-foreground-1: #202225;
+  --color-foreground-2: #292b2f;
+  --color-foreground-3: #2f3136;
+  --color-foreground-4: #2f3136;
+  --color-foreground-5: #2f3136;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
@@ -18,12 +32,23 @@
   .heading--2 {
     font-size: 1.75em;
     @media (max-width: 767px) {
-      font-size: 1em;
+      font-size: 1.25em;
     }
   }
 
   .heading--3 {
     font-size: 1.25em;
+    @media (max-width: 767px) {
+      font-size: 1em;
+    }
+  }
+
+  .column-layout {
+    width: 65vw;
+    margin: auto;
+    @media (max-width: 767px) {
+      width: 90vw;
+    }
   }
 
   .mobile-only {

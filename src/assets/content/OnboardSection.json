@@ -1,0 +1,25 @@
+{
+  "title": "Getting started",
+  "steps": [
+    {
+      "title": "Create space",
+      "description": "Setup your organization space in Oneauth. Janus and all products from IOAK is powered by Oneauth for authentication."
+    },
+    {
+      "title": "Add users",
+      "description": "Setup your organization space in Oneauth. Janus and all products from IOAK is powered by Oneauth for authentication."
+    },
+    {
+      "title": "Create project",
+      "description": "Setup your organization space in Oneauth. Janus and all products from IOAK is powered by Oneauth for authentication."
+    },
+    {
+      "title": "Create team",
+      "description": "Setup your organization space in Oneauth. Janus and all products from IOAK is powered by Oneauth for authentication."
+    },
+    {
+      "title": "Start rocking",
+      "description": "Setup your organization space in Oneauth. Janus and all products from IOAK is powered by Oneauth for authentication."
+    }
+  ]
+}
