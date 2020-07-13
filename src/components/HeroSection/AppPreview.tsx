@@ -1,8 +1,8 @@
 import React from "react"
 import "./style.scss"
-import imageBoardView from "../../assets/preview/boardview.png"
-import imageBoardViewMobile from "../../assets/preview/boardview_mobile.png"
-import imageTaskView from "../../assets/preview/taskview.png"
+import imageBoardView from "../../assets/preview/boardview.jpg"
+import imageBoardViewMobile from "../../assets/preview/boardview_mobile.jpg"
+import imageTaskView from "../../assets/preview/taskview.jpg"
 
 export default function AppPreview() {
   return (
