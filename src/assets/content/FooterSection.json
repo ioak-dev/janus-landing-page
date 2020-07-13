@@ -55,13 +55,13 @@
           "label": "API service"
         }
       ]
-    },
-    {
-      "group": "Legal and Privacy",
-      "list": [
-        { "href": "/terms", "label": "Terms and Conditions" },
-        { "href": "/privacy", "label": "Privacy Policy" }
-      ]
     }
-  ]
+  ],
+  "backup": {
+    "group": "Legal and Privacy",
+    "list": [
+      { "href": "/terms", "label": "Terms and Conditions" },
+      { "href": "/privacy", "label": "Privacy Policy" }
+    ]
+  }
 }

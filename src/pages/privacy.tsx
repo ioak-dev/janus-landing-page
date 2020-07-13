@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import HeaderSection from "../components/HeaderSection"
 import PrivacySection from "../components/PrivacyPage/PrivacySection"
 import FooterSection from "../components/FooterSection"
+import CopyrightSection from "../components/CopyrightSection"
 
 const PrivacyPage = () => (
   <div className="page-privacy">
@@ -11,6 +12,7 @@ const PrivacyPage = () => (
     <HeaderSection black />
     <PrivacySection />
     <FooterSection />
+    <CopyrightSection />
   </div>
 )
 

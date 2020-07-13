@@ -11,6 +11,7 @@ import OnboardSection from "../components/OnboardSection"
 import ContactSection from "../components/ContactSection"
 import FaqSection from "../components/FaqSection"
 import FooterSection from "../components/FooterSection"
+import CopyrightSection from "../components/CopyrightSection"
 
 const IndexPage = () => (
   <div className="page-home">
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <ContactSection />
     <FaqSection />
     <FooterSection />
+    <CopyrightSection />
   </div>
 )
 

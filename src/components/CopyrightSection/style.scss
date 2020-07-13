@@ -1,0 +1,26 @@
+.copyright-section {
+  display: grid;
+  align-items: center;
+  @media (max-width: 767px) {
+    padding: 5px;
+    grid-auto-flow: row;
+    row-gap: 5px;
+    font-size: 12px;
+  }
+  @media (min-width: 768px) {
+    padding: 10px;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    column-gap: 10px;
+  }
+  i {
+    font-size: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--color-foreground-2);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
