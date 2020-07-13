@@ -1,8 +1,6 @@
 import React from "react"
 import "./style.scss"
-import Preview from "./Preview"
 import OakButton from "../oakfly/OakButton"
-import { faJediOrder } from "@fortawesome/free-brands-svg-icons"
 import content from "../../assets/content/HeroSection.json"
 import AppPreview from "./AppPreview"
 import HeaderSection from "../HeaderSection"

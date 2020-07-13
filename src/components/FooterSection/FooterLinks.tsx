@@ -3,17 +3,13 @@ import "./style.scss"
 import FooterLinkGroup from "./FooterLinkGroup"
 
 interface Props {
-  data: [
-    {
-      group: string
-      list: [
-        {
-          href: string
-          label: string
-        }
-      ]
-    }
-  ]
+  data: {
+    group: string
+    list: {
+      href: string
+      label: string
+    }[]
+  }[]
 }
 
 export default function FooterLinks(props: Props) {

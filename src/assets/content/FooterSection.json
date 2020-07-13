@@ -50,8 +50,8 @@
     {
       "group": "Legal and Privacy",
       "list": [
-        { "href": "terms", "label": "Terms and Conditions" },
-        { "href": "privacy", "label": "Privacy Policy" }
+        { "href": "/terms", "label": "Terms and Conditions" },
+        { "href": "/privacy", "label": "Privacy Policy" }
       ]
     }
   ]

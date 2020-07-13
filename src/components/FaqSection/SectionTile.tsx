@@ -12,7 +12,7 @@ interface Props {
 export default function SectionTile(props: Props) {
   return (
     <div className="sectiontile">
-      <h4 className="heading--4">{props.data.title}</h4>
+      <p className="sectiontile--faq-title">{props.data.title}</p>
       <div dangerouslySetInnerHTML={{ __html: props.data.description }} />
     </div>
   )

@@ -1,18 +1,11 @@
 import React from "react"
 import "./style.scss"
 import ioakWhite from "../../assets/ioak_white.svg"
-import CompanyContact from "./CompanyContact"
 
 interface Props {
   data: {
     title: string
     description: string
-    contact: [
-      {
-        faIcon: string
-        label: string
-      }
-    ]
   }
 }
 

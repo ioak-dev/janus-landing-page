@@ -16,7 +16,7 @@ export default function ContactSection() {
         <div className="contact-section--container">
           <div className="contact-section--container--wrapper">
             <div className="contact-section--container--wrapper-content">
-              <h2 className="heading--2">{content.title}</h2>
+              <h3 className="heading--3">{content.title}</h3>
               <p>{content.description}</p>
             </div>
             {!showForm && (

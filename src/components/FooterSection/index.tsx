@@ -1,6 +1,5 @@
 import React from "react"
 import "./style.scss"
-import SectionTile from "./SectionTile"
 import content from "../../assets/content/FooterSection.json"
 import CompanyProfile from "./CompanyProfile"
 import FooterLinks from "./FooterLinks"

@@ -13,7 +13,7 @@ export default function DemoSection() {
       <div className="column-layout">
         <div className="demo-section--container">
           <div className="demo-section--container-content">
-            <h2 className="heading--2">{content.title}</h2>
+            <h3 className="heading--3">{content.title}</h3>
             <p>{content.description}</p>
           </div>
           <OakButton
