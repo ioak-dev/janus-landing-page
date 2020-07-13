@@ -16,8 +16,8 @@ export default function CompanyContact(props: Props) {
     <div className="company-contact">
       <div className="company-contact--title">Contact information</div>
       <div className="company-contact--contact">
-        {props.data.map(contact => (
-          <div className="company-contact--contact--mode">
+        {props.data.map((contact, index) => (
+          <div className="company-contact--contact--mode" key={index}>
             <i className={contact.faIcon} />
             <p>{contact.label}</p>
           </div>

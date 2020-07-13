@@ -25,17 +25,29 @@
     {
       "group": "Help and Support",
       "list": [
-        { "href": "abcd", "label": "Frequently asked questions" },
-        { "href": "abcd", "label": "Use cases" },
-        { "href": "abcd", "label": "Ask question" },
-        { "href": "abcd", "label": "Source code" }
+        {
+          "href": "https://mirror.ioak.org/#/a1/article/browse",
+          "label": "Frequently asked questions"
+        },
+        {
+          "href": "https://mirror.ioak.org/#/a1/article/browse?categoryid=5eda9fff230dba0017a0f25a",
+          "label": "Use cases"
+        },
+        {
+          "href": "https://mirror.ioak.org/#/a1/post/create",
+          "label": "Ask question"
+        },
+        {
+          "href": "https://mirror.ioak.org/#/a1/article/view?id=5ee71e34aacadc00177e63fa",
+          "label": "Source code"
+        }
       ]
     },
     {
       "group": "Legal and Privacy",
       "list": [
-        { "href": "asa", "label": "Terms and Conditions" },
-        { "href": "abcd", "label": "Privacy Policy" }
+        { "href": "terms", "label": "Terms and Conditions" },
+        { "href": "privacy", "label": "Privacy Policy" }
       ]
     }
   ]

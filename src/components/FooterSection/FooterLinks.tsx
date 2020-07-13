@@ -19,8 +19,8 @@ interface Props {
 export default function FooterLinks(props: Props) {
   return (
     <div className="footer-links">
-      {props.data.map(item => (
-        <FooterLinkGroup data={item} />
+      {props.data.map((item, index) => (
+        <FooterLinkGroup data={item} key={index} />
       ))}
     </div>
   )

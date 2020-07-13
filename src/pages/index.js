@@ -6,6 +6,7 @@ import OnboardSection from "../components/OnboardSection"
 import "./style.scss"
 import ContactSection from "../components/ContactSection"
 import FooterSection from "../components/FooterSection"
+import FaqSection from "../components/FaqSection"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <DemoSection />
       <OnboardSection />
       <ContactSection />
+      <FaqSection />
       <FooterSection />
     </div>
   )

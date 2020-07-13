@@ -1,18 +1,18 @@
 import React from "react"
 import "./style.scss"
-import Header from "./Header"
 import Preview from "./Preview"
 import OakButton from "../oakfly/OakButton"
 import { faJediOrder } from "@fortawesome/free-brands-svg-icons"
 import content from "../../assets/content/HeroSection.json"
 import AppPreview from "./AppPreview"
+import HeaderSection from "../HeaderSection"
 
 export default function HeroSection() {
   return (
     <>
       <div className="hero-section">
         <div className="hero-section--container column-layout">
-          <Header />
+          <HeaderSection />
           <h1 className="heading--1 hero-section--container--title">
             {content.title}
           </h1>

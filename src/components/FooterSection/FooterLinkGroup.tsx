@@ -19,7 +19,9 @@ export default function FooterLinkGroup(props: Props) {
       <div className="footer-link-group--title">{props.data.group}</div>
       <div className="footer-link-group--content">
         {props.data.list.map(item => (
-          <div>{item.label}</div>
+          <a href={item.href} key={item.href}>
+            {item.label}
+          </a>
         ))}
       </div>
     </div>
