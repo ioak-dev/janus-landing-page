@@ -5,7 +5,6 @@ interface Props {
   data: {
     title: string
     description: string
-    faIcon: any
   }
 }
 

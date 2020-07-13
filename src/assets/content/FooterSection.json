@@ -39,11 +39,20 @@
         },
         {
           "href": "https://mirror.ioak.org/#/a1/article/view?id=5ee71e34aacadc00177e63fa",
-          "label": "Source code"
+          "label": "API documentation"
+        }
+      ]
+    },
+    {
+      "group": "Source code",
+      "list": [
+        {
+          "href": "https://github.com/ioak-dev/janus-service",
+          "label": "User interface"
         },
         {
-          "href": "https://mirror.ioak.org/#/a1/article/view?id=5ee71e34aacadc00177e63fa",
-          "label": "API documentation"
+          "href": "https://github.com/ioak-dev/janus",
+          "label": "API service"
         }
       ]
     },

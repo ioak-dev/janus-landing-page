@@ -6,7 +6,7 @@
     },
     {
       "title": "How do I request for a feature that is not available currently?",
-      "description": "Janus is a free tool that is maintained by IOAK developer community. If you would like to include a feature that is not currently supported, you can contact us by sending an inquiry or post a question on our <a href='https://mirror.ioak.org/#/a1/post/create'>forum</a> section. We will respond back to you on the feasibility and the expected time to add the feature."
+      "description": "Janus is a free tool that is maintained by IOAK developer community. If you would like to include a feature that is not currently supported, you can contact us by sending an inquiry or post a question on our <a href='https://mirror.ioak.org/#/a1/post/create' title='Submit feature request'>forum</a> section. We will respond back to you on the feasibility and the expected time to add the feature."
     },
     {
       "title": "How do I contribute to the project, as a developer?",

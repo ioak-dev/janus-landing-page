@@ -11,7 +11,7 @@ interface Props {
 export default function HeaderSection(props: Props) {
   return (
     <div className="header-section">
-      <Link to="/">
+      <Link to="/" title="Go to landing page">
         <img
           className="logo"
           src={props.black ? janusBlack : janusWhite}
