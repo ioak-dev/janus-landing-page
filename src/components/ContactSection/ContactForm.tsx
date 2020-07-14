@@ -46,17 +46,21 @@ export default function ContactForm(props: Props) {
       </form>
       <div className="contact-form--action">
         <OakButton
-          variant="secondary"
-          label="Send"
+          theme="primary"
+          variant="appear"
           faIcon="fas fa-paper-plane"
           action={contact}
-        />
+        >
+          Send
+        </OakButton>
         <OakButton
-          variant="secondary"
-          label="Cancel"
+          theme="default"
+          variant="block"
           faIcon="fas fa-ban"
           action={props.closeForm}
-        />
+        >
+          Cancel
+        </OakButton>
       </div>
     </div>
   )

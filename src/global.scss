@@ -2,9 +2,16 @@
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 * {
-  --color-primary: #564f70;
-  --color-secondary: #ffdb6a;
-  --metric-formelement-height: 46px;
+  --color-header: #564f70;
+  --color-footer: #564f70;
+  --color-primary-1: #6f668f;
+  --color-primary-2: #5c5577;
+  --color-secondary-1: #ffdb6a;
+  --color-secondary-2: #ffde70;
+  --color-default-1: #737373;
+  --color-default-2: #7b7885;
+  --metric-formelement-height: 40px;
+  --metric-formelement-height-mobile: 36px;
 
   --color-background-1: #e3e5e8;
   --color-background-2: #ebedef;

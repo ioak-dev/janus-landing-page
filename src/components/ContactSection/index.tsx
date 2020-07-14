@@ -21,11 +21,13 @@ export default function ContactSection() {
             </div>
             {!showForm && (
               <OakButton
-                variant="secondary"
-                label="Send inquiry"
+                theme="primary"
+                variant="drama"
                 faIcon="fas fa-paper-plane"
                 action={() => setShowForm(true)}
-              />
+              >
+                Send inquiry
+              </OakButton>
             )}
           </div>
           {showForm && (

@@ -2,7 +2,7 @@
   "title": "Free and fully featured agile tool",
   "subtitle": "Whether you are a startup or an established business, Janus will enhance your agile project management workflow",
   "callToAction": {
-    "label": "GET STARTED",
-    "faIcon": "fab fa-jedi-order"
+    "label": "Start a new project",
+    "faIcon": "fas fa-play"
   }
 }

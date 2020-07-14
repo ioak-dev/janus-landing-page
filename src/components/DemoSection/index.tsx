@@ -17,11 +17,13 @@ export default function DemoSection() {
             <p>{content.description}</p>
           </div>
           <OakButton
-            variant="secondary"
-            label={content.callToAction.label}
+            theme="primary"
+            variant="drama"
             faIcon={content.callToAction.faIcon}
             action={demo}
-          />
+          >
+            {content.callToAction.label}
+          </OakButton>
         </div>
       </div>
     </div>

@@ -4,10 +4,11 @@ import OakButton from "../oakfly/OakButton"
 import content from "../../assets/content/HeroSection.json"
 import AppPreview from "./AppPreview"
 import HeaderSection from "../HeaderSection"
+import CallToAction from "./CallToAction"
 
 export default function HeroSection() {
   return (
-    <>
+    <div className="hero-section-group">
       <div className="hero-section">
         <div className="hero-section--container column-layout">
           <HeaderSection />
@@ -18,16 +19,11 @@ export default function HeroSection() {
             {content.subtitle}
           </p>
           <div>
-            <OakButton
-              action={() => (window.location.href = "https://janus.ioak.org")}
-              label={content.callToAction.label}
-              faIcon={content.callToAction.faIcon}
-              variant="primary"
-            />
+            <CallToAction data={content.callToAction} />
           </div>
         </div>
       </div>
       <AppPreview />
-    </>
+    </div>
   )
 }
