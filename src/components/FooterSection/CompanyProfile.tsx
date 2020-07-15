@@ -14,7 +14,7 @@ export default function CompanyProfile(props: Props) {
     <div className="company-profile">
       <div>
         <img className="logo" src={ioakWhite} alt="IOAK logo" />
-        <h3 className="heading--3">{props.data.title}</h3>
+        <h4 className="heading--4">{props.data.title}</h4>
       </div>
       <p>{props.data.description}</p>
     </div>

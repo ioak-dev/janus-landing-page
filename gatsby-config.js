@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://home.janus.ioak.org`,
-    title: `Free and fully featured agile tool`,
+    title: `Free collaborative Agile project management tool`,
     // description: `Whether you are a startup or an established business, Janus will enhance your agile project management workflow. Modern and sleek user interface with advanced capabilities to plan and execute your project efficiently. Supports Scrum and Kanban agile management processes. Unlimited number of projects and teams.`,
-    description: `Janus optimizes your agile project management workflow with Scrum or Kanban. Clean user interface with advanced capabilities to execute your project efficiently`,
+    // description: `Janus optimizes your agile project management workflow with Scrum or Kanban. Clean user interface with advanced capabilities to execute your project efficiently`,
+    description: `Enhance software development workflow, be it Kanban or Scrum. Plan and track milestones with sprint and epic. Use checklists to capture the objectives of a task.`,
     author: `@ioak-dev`,
   },
   plugins: [
