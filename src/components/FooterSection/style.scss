@@ -27,7 +27,20 @@
   align-content: flex-start;
 
   img {
-    height: 30px !important;
+    &.company-profile--logo--oneauth {
+      height: 20px !important;
+    }
+    &.company-profile--logo--ioak {
+      height: 20px !important;
+    }
+  }
+
+  .company-profile--logo {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
   }
 }
 
