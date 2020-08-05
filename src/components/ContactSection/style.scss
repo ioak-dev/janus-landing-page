@@ -1,41 +1,18 @@
 .contact-section {
-  margin: 50px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
   .contact-section--container {
-    border-top: 1px solid #dfe3e8;
-    border-bottom: 1px solid #dfe3e8;
     padding: 30px 20px;
     display: grid;
     grid-auto-flow: row;
     row-gap: 20px;
-    .contact-section--container--wrapper {
-      display: grid;
-      @media (min-width: 768px) {
-        grid-template-columns: auto auto;
-        align-items: center;
-        justify-content: space-between;
-      }
-      @media (max-width: 767px) {
-        grid-template-rows: auto auto;
-        row-gap: 20px;
-        justify-content: center;
-        text-align: center;
-        justify-items: center;
-      }
-      .contact-section--container--wrapper-content {
-        display: grid;
-        grid-auto-flow: row;
-        row-gap: 10px;
-      }
-    }
-    .contact-section--container--form {
-      margin-top: 30px;
-      display: flex;
-      justify-content: center;
-    }
+    justify-content: center;
+    text-align: center;
   }
 }
 
 .contact-form {
+  margin: auto;
   display: grid;
   grid-auto-flow: row;
   row-gap: 20px;

@@ -51,15 +51,7 @@ export default function ContactForm(props: Props) {
           faIcon="fas fa-paper-plane"
           action={contact}
         >
-          Send
-        </OakButton>
-        <OakButton
-          theme="default"
-          variant="block"
-          faIcon="fas fa-ban"
-          action={props.closeForm}
-        >
-          Cancel
+          Send inquiry
         </OakButton>
       </div>
     </div>

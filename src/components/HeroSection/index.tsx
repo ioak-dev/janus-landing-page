@@ -1,29 +1,21 @@
 import React from "react"
 import "./style.scss"
-import OakButton from "../oakfly/OakButton"
-import content from "../../assets/content/HeroSection.json"
-import AppPreview from "./AppPreview"
 import HeaderSection from "../HeaderSection"
-import CallToAction from "./CallToAction"
+import HeroContent from "./HeroContent"
+import content from "../../assets/content/HeroSection.json"
+import OakAnimateElement from "../oakfly/OakAnimateElement"
 
 export default function HeroSection() {
   return (
-    <div className="hero-section-group">
-      <div className="hero-section">
-        <div className="hero-section--container column-layout">
-          <HeaderSection />
-          <h1 className="heading--1 hero-section--container--title">
-            {content.title}
-          </h1>
-          <p className="heading--2 hero-section--container--subtitle">
-            {content.subtitle}
-          </p>
-          <div>
-            <CallToAction data={content.callToAction} />
-          </div>
+    <div className="hero-section">
+      <div className="hero-section--container column-layout">
+        <HeaderSection />
+        <div className="hero-section--container--content">
+          <OakAnimateElement direction="up">
+            <HeroContent data={content} />
+          </OakAnimateElement>
         </div>
       </div>
-      <AppPreview />
     </div>
   )
 }

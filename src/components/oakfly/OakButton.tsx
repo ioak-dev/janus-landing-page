@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react"
-import "./styles/oak-button.scss"
+import "./styles/oak-button-round.scss"
 
 interface Props {
   icon?: string // points to "mat" material icon
